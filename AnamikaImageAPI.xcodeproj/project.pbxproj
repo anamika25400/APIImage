@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184A3A5D23FA807D004EE867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A3A5C23FA807D004EE867 /* AppDelegate.swift */; };
+		184A3A5F23FA807D004EE867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A3A5E23FA807D004EE867 /* SceneDelegate.swift */; };
+		184A3A6123FA807D004EE867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A3A6023FA807D004EE867 /* ViewController.swift */; };
+		184A3A6423FA807D004EE867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184A3A6223FA807D004EE867 /* Main.storyboard */; };
+		184A3A6623FA807E004EE867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184A3A6523FA807E004EE867 /* Assets.xcassets */; };
+		184A3A6923FA807E004EE867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184A3A6723FA807E004EE867 /* LaunchScreen.storyboard */; };
+		184A3A7423FA807F004EE867 /* AnamikaImageAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A3A7323FA807F004EE867 /* AnamikaImageAPITests.swift */; };
+		184A3A7F23FA807F004EE867 /* AnamikaImageAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A3A7E23FA807F004EE867 /* AnamikaImageAPIUITests.swift */; };
+		184A3A8D23FA8449004EE867 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A3A8C23FA8449004EE867 /* TableViewCell.swift */; };
+		184A3A9023FA8851004EE867 /* modelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A3A8F23FA8851004EE867 /* modelData.swift */; };
+		75EECA9743CCD79BEAF4F2C9 /* Pods_AnamikaImageAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B354B091EC03F3E9E52961E /* Pods_AnamikaImageAPITests.framework */; };
+		B8839109B83336F2D97D9F19 /* Pods_AnamikaImageAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A6AB4EF1A51DFECA68148B /* Pods_AnamikaImageAPI.framework */; };
+		E44AA12266DFA1819CDFDA72 /* Pods_AnamikaImageAPI_AnamikaImageAPIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB9A408EC61F2ADB6234B03 /* Pods_AnamikaImageAPI_AnamikaImageAPIUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184A3A7023FA807F004EE867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184A3A5123FA807D004EE867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184A3A5823FA807D004EE867;
+			remoteInfo = AnamikaImageAPI;
+		};
+		184A3A7B23FA807F004EE867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184A3A5123FA807D004EE867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184A3A5823FA807D004EE867;
+			remoteInfo = AnamikaImageAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A43D1485104178549DFCB58 /* Pods-AnamikaImageAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnamikaImageAPI.release.xcconfig"; path = "Target Support Files/Pods-AnamikaImageAPI/Pods-AnamikaImageAPI.release.xcconfig"; sourceTree = "<group>"; };
+		184A3A5923FA807D004EE867 /* AnamikaImageAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnamikaImageAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184A3A5C23FA807D004EE867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		184A3A5E23FA807D004EE867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		184A3A6023FA807D004EE867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		184A3A6323FA807D004EE867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184A3A6523FA807E004EE867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184A3A6823FA807E004EE867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184A3A6A23FA807E004EE867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184A3A6F23FA807F004EE867 /* AnamikaImageAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnamikaImageAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184A3A7323FA807F004EE867 /* AnamikaImageAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnamikaImageAPITests.swift; sourceTree = "<group>"; };
+		184A3A7523FA807F004EE867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184A3A7A23FA807F004EE867 /* AnamikaImageAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnamikaImageAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184A3A7E23FA807F004EE867 /* AnamikaImageAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnamikaImageAPIUITests.swift; sourceTree = "<group>"; };
+		184A3A8023FA807F004EE867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184A3A8C23FA8449004EE867 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		184A3A8F23FA8851004EE867 /* modelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelData.swift; sourceTree = "<group>"; };
+		382F8CA930AD7E97B65E4BFA /* Pods-AnamikaImageAPI-AnamikaImageAPIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnamikaImageAPI-AnamikaImageAPIUITests.debug.xcconfig"; path = "Target Support Files/Pods-AnamikaImageAPI-AnamikaImageAPIUITests/Pods-AnamikaImageAPI-AnamikaImageAPIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		39A6AB4EF1A51DFECA68148B /* Pods_AnamikaImageAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnamikaImageAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B354B091EC03F3E9E52961E /* Pods_AnamikaImageAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnamikaImageAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC290CFF521768CB35BE618 /* Pods-AnamikaImageAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnamikaImageAPITests.release.xcconfig"; path = "Target Support Files/Pods-AnamikaImageAPITests/Pods-AnamikaImageAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		55AD6DC61AA17D4194665C41 /* Pods-AnamikaImageAPI-AnamikaImageAPIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnamikaImageAPI-AnamikaImageAPIUITests.release.xcconfig"; path = "Target Support Files/Pods-AnamikaImageAPI-AnamikaImageAPIUITests/Pods-AnamikaImageAPI-AnamikaImageAPIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6AB9A408EC61F2ADB6234B03 /* Pods_AnamikaImageAPI_AnamikaImageAPIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnamikaImageAPI_AnamikaImageAPIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4FFD80FA9CA4D46CD4BB09 /* Pods-AnamikaImageAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnamikaImageAPITests.debug.xcconfig"; path = "Target Support Files/Pods-AnamikaImageAPITests/Pods-AnamikaImageAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED75C2E02DDC80F4109207F9 /* Pods-AnamikaImageAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnamikaImageAPI.debug.xcconfig"; path = "Target Support Files/Pods-AnamikaImageAPI/Pods-AnamikaImageAPI.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184A3A5623FA807D004EE867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8839109B83336F2D97D9F19 /* Pods_AnamikaImageAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A3A6C23FA807F004EE867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EECA9743CCD79BEAF4F2C9 /* Pods_AnamikaImageAPITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A3A7723FA807F004EE867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44AA12266DFA1819CDFDA72 /* Pods_AnamikaImageAPI_AnamikaImageAPIUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184A3A5023FA807D004EE867 = {
+			isa = PBXGroup;
+			children = (
+				184A3A8F23FA8851004EE867 /* modelData.swift */,
+				184A3A5B23FA807D004EE867 /* AnamikaImageAPI */,
+				184A3A7223FA807F004EE867 /* AnamikaImageAPITests */,
+				184A3A7D23FA807F004EE867 /* AnamikaImageAPIUITests */,
+				184A3A5A23FA807D004EE867 /* Products */,
+				64C66F2F14B1D884871CA5B3 /* Pods */,
+				CEFA19BAD8067E9C61C5F3BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		184A3A5A23FA807D004EE867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184A3A5923FA807D004EE867 /* AnamikaImageAPI.app */,
+				184A3A6F23FA807F004EE867 /* AnamikaImageAPITests.xctest */,
+				184A3A7A23FA807F004EE867 /* AnamikaImageAPIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184A3A5B23FA807D004EE867 /* AnamikaImageAPI */ = {
+			isa = PBXGroup;
+			children = (
+				184A3A5C23FA807D004EE867 /* AppDelegate.swift */,
+				184A3A5E23FA807D004EE867 /* SceneDelegate.swift */,
+				184A3A6023FA807D004EE867 /* ViewController.swift */,
+				184A3A6223FA807D004EE867 /* Main.storyboard */,
+				184A3A8C23FA8449004EE867 /* TableViewCell.swift */,
+				184A3A6523FA807E004EE867 /* Assets.xcassets */,
+				184A3A6723FA807E004EE867 /* LaunchScreen.storyboard */,
+				184A3A6A23FA807E004EE867 /* Info.plist */,
+			);
+			path = AnamikaImageAPI;
+			sourceTree = "<group>";
+		};
+		184A3A7223FA807F004EE867 /* AnamikaImageAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				184A3A7323FA807F004EE867 /* AnamikaImageAPITests.swift */,
+				184A3A7523FA807F004EE867 /* Info.plist */,
+			);
+			path = AnamikaImageAPITests;
+			sourceTree = "<group>";
+		};
+		184A3A7D23FA807F004EE867 /* AnamikaImageAPIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				184A3A7E23FA807F004EE867 /* AnamikaImageAPIUITests.swift */,
+				184A3A8023FA807F004EE867 /* Info.plist */,
+			);
+			path = AnamikaImageAPIUITests;
+			sourceTree = "<group>";
+		};
+		64C66F2F14B1D884871CA5B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED75C2E02DDC80F4109207F9 /* Pods-AnamikaImageAPI.debug.xcconfig */,
+				0A43D1485104178549DFCB58 /* Pods-AnamikaImageAPI.release.xcconfig */,
+				382F8CA930AD7E97B65E4BFA /* Pods-AnamikaImageAPI-AnamikaImageAPIUITests.debug.xcconfig */,
+				55AD6DC61AA17D4194665C41 /* Pods-AnamikaImageAPI-AnamikaImageAPIUITests.release.xcconfig */,
+				8C4FFD80FA9CA4D46CD4BB09 /* Pods-AnamikaImageAPITests.debug.xcconfig */,
+				4DC290CFF521768CB35BE618 /* Pods-AnamikaImageAPITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEFA19BAD8067E9C61C5F3BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39A6AB4EF1A51DFECA68148B /* Pods_AnamikaImageAPI.framework */,
+				6AB9A408EC61F2ADB6234B03 /* Pods_AnamikaImageAPI_AnamikaImageAPIUITests.framework */,
+				3B354B091EC03F3E9E52961E /* Pods_AnamikaImageAPITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184A3A5823FA807D004EE867 /* AnamikaImageAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184A3A8323FA807F004EE867 /* Build configuration list for PBXNativeTarget "AnamikaImageAPI" */;
+			buildPhases = (
+				E2B7039A6279245F08B88366 /* [CP] Check Pods Manifest.lock */,
+				184A3A5523FA807D004EE867 /* Sources */,
+				184A3A5623FA807D004EE867 /* Frameworks */,
+				184A3A5723FA807D004EE867 /* Resources */,
+				FF2CDE8797691F75D9C89E93 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnamikaImageAPI;
+			productName = AnamikaImageAPI;
+			productReference = 184A3A5923FA807D004EE867 /* AnamikaImageAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184A3A6E23FA807F004EE867 /* AnamikaImageAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184A3A8623FA807F004EE867 /* Build configuration list for PBXNativeTarget "AnamikaImageAPITests" */;
+			buildPhases = (
+				264F7C056F5CCCBBF82C6B22 /* [CP] Check Pods Manifest.lock */,
+				184A3A6B23FA807F004EE867 /* Sources */,
+				184A3A6C23FA807F004EE867 /* Frameworks */,
+				184A3A6D23FA807F004EE867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184A3A7123FA807F004EE867 /* PBXTargetDependency */,
+			);
+			name = AnamikaImageAPITests;
+			productName = AnamikaImageAPITests;
+			productReference = 184A3A6F23FA807F004EE867 /* AnamikaImageAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		184A3A7923FA807F004EE867 /* AnamikaImageAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184A3A8923FA807F004EE867 /* Build configuration list for PBXNativeTarget "AnamikaImageAPIUITests" */;
+			buildPhases = (
+				02F008564AB9A8735E470267 /* [CP] Check Pods Manifest.lock */,
+				184A3A7623FA807F004EE867 /* Sources */,
+				184A3A7723FA807F004EE867 /* Frameworks */,
+				184A3A7823FA807F004EE867 /* Resources */,
+				1A55F01C64C05856E2CEC8F4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184A3A7C23FA807F004EE867 /* PBXTargetDependency */,
+			);
+			name = AnamikaImageAPIUITests;
+			productName = AnamikaImageAPIUITests;
+			productReference = 184A3A7A23FA807F004EE867 /* AnamikaImageAPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184A3A5123FA807D004EE867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Apple MacBook Pro ";
+				TargetAttributes = {
+					184A3A5823FA807D004EE867 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					184A3A6E23FA807F004EE867 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 184A3A5823FA807D004EE867;
+					};
+					184A3A7923FA807F004EE867 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 184A3A5823FA807D004EE867;
+					};
+				};
+			};
+			buildConfigurationList = 184A3A5423FA807D004EE867 /* Build configuration list for PBXProject "AnamikaImageAPI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184A3A5023FA807D004EE867;
+			productRefGroup = 184A3A5A23FA807D004EE867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184A3A5823FA807D004EE867 /* AnamikaImageAPI */,
+				184A3A6E23FA807F004EE867 /* AnamikaImageAPITests */,
+				184A3A7923FA807F004EE867 /* AnamikaImageAPIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184A3A5723FA807D004EE867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184A3A6923FA807E004EE867 /* LaunchScreen.storyboard in Resources */,
+				184A3A6623FA807E004EE867 /* Assets.xcassets in Resources */,
+				184A3A6423FA807D004EE867 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A3A6D23FA807F004EE867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A3A7823FA807F004EE867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02F008564AB9A8735E470267 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnamikaImageAPI-AnamikaImageAPIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A55F01C64C05856E2CEC8F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnamikaImageAPI-AnamikaImageAPIUITests/Pods-AnamikaImageAPI-AnamikaImageAPIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnamikaImageAPI-AnamikaImageAPIUITests/Pods-AnamikaImageAPI-AnamikaImageAPIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnamikaImageAPI-AnamikaImageAPIUITests/Pods-AnamikaImageAPI-AnamikaImageAPIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		264F7C056F5CCCBBF82C6B22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnamikaImageAPITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2B7039A6279245F08B88366 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnamikaImageAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF2CDE8797691F75D9C89E93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnamikaImageAPI/Pods-AnamikaImageAPI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnamikaImageAPI/Pods-AnamikaImageAPI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnamikaImageAPI/Pods-AnamikaImageAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184A3A5523FA807D004EE867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184A3A9023FA8851004EE867 /* modelData.swift in Sources */,
+				184A3A6123FA807D004EE867 /* ViewController.swift in Sources */,
+				184A3A8D23FA8449004EE867 /* TableViewCell.swift in Sources */,
+				184A3A5D23FA807D004EE867 /* AppDelegate.swift in Sources */,
+				184A3A5F23FA807D004EE867 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A3A6B23FA807F004EE867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184A3A7423FA807F004EE867 /* AnamikaImageAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A3A7623FA807F004EE867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184A3A7F23FA807F004EE867 /* AnamikaImageAPIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184A3A7123FA807F004EE867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184A3A5823FA807D004EE867 /* AnamikaImageAPI */;
+			targetProxy = 184A3A7023FA807F004EE867 /* PBXContainerItemProxy */;
+		};
+		184A3A7C23FA807F004EE867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184A3A5823FA807D004EE867 /* AnamikaImageAPI */;
+			targetProxy = 184A3A7B23FA807F004EE867 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184A3A6223FA807D004EE867 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184A3A6323FA807D004EE867 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184A3A6723FA807E004EE867 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184A3A6823FA807E004EE867 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184A3A8123FA807F004EE867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		184A3A8223FA807F004EE867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184A3A8423FA807F004EE867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED75C2E02DDC80F4109207F9 /* Pods-AnamikaImageAPI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnamikaImageAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appView.AnamikaImageAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184A3A8523FA807F004EE867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A43D1485104178549DFCB58 /* Pods-AnamikaImageAPI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnamikaImageAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appView.AnamikaImageAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		184A3A8723FA807F004EE867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C4FFD80FA9CA4D46CD4BB09 /* Pods-AnamikaImageAPITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnamikaImageAPITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appView.AnamikaImageAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnamikaImageAPI.app/AnamikaImageAPI";
+			};
+			name = Debug;
+		};
+		184A3A8823FA807F004EE867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC290CFF521768CB35BE618 /* Pods-AnamikaImageAPITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnamikaImageAPITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appView.AnamikaImageAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnamikaImageAPI.app/AnamikaImageAPI";
+			};
+			name = Release;
+		};
+		184A3A8A23FA807F004EE867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382F8CA930AD7E97B65E4BFA /* Pods-AnamikaImageAPI-AnamikaImageAPIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnamikaImageAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appView.AnamikaImageAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnamikaImageAPI;
+			};
+			name = Debug;
+		};
+		184A3A8B23FA807F004EE867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55AD6DC61AA17D4194665C41 /* Pods-AnamikaImageAPI-AnamikaImageAPIUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnamikaImageAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appView.AnamikaImageAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnamikaImageAPI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184A3A5423FA807D004EE867 /* Build configuration list for PBXProject "AnamikaImageAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184A3A8123FA807F004EE867 /* Debug */,
+				184A3A8223FA807F004EE867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184A3A8323FA807F004EE867 /* Build configuration list for PBXNativeTarget "AnamikaImageAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184A3A8423FA807F004EE867 /* Debug */,
+				184A3A8523FA807F004EE867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184A3A8623FA807F004EE867 /* Build configuration list for PBXNativeTarget "AnamikaImageAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184A3A8723FA807F004EE867 /* Debug */,
+				184A3A8823FA807F004EE867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184A3A8923FA807F004EE867 /* Build configuration list for PBXNativeTarget "AnamikaImageAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184A3A8A23FA807F004EE867 /* Debug */,
+				184A3A8B23FA807F004EE867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184A3A5123FA807D004EE867 /* Project object */;
+}
